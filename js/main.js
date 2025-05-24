@@ -7,6 +7,14 @@ window.addEventListener('DOMContentLoaded', () => {
     yearEl.textContent = new Date().getFullYear();
   }
 
+  // Update month and year in About section
+  const monthYearEl = document.querySelector('[data-current-month-year]');
+  if (monthYearEl) {
+    const date = new Date();
+    const month = date.toLocaleString('default', { month: 'long' });
+    monthYearEl.textContent = `${month} ${date.getFullYear()}`;
+  }
+
   // Toggle aria-expanded on the mobile menu checkbox
   const menuToggle = document.getElementById('menu-btn');
   if (menuToggle) {
