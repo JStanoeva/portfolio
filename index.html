@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Tora Blaze, web developer" />
+    <meta
+      name="keywords"
+      content="Tora Blaze, web developer, portfolio, HTML, CSS, JavaScript, web development, projects"
+    />
+    <meta property="og:title" content="Tora Blaze Portfolio" />
+    <meta
+      property="og:description"
+      content="Showcase of Tora Blaze's projects"
+    />
+    <meta property="og:image" content="./images/profile-pic1.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jstanoeva.github.io/portfolio/" />
+    <link rel="canonical" href="https://jstanoeva.github.io/portfolio/" />
+    <title>Tora Blaze</title>
+
+    <!-- SOCIAL ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/favicon.png"
+      sizes="16x16"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Raleway&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- MENU -->
+    <header class="header">
+      <a href="#" class="logo"
+        ><img class="favicon" src="./images/favicon.png" alt="icon" /> TORA
+        BLAZE</a
+      >
+      <input
+        class="menu-btn"
+        type="checkbox"
+        id="menu-btn"
+        aria-label="Menu toggle"
+      />
+      <label
+        class="menu-icon"
+        for="menu-btn"
+        aria-label="Toggle navigation menu"
+        ><span class="sr-only">Menu</span><span class="navicon"></span
+      ></label>
+      <nav aria-label="Main navigation">
+        <ul class="menu">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero">
+        <div class="container-hero">
+          <div class="hero-title">
+            <h1>TORA BLAZE</h1>
+            <p class="hero-subtitle">Web Developer</p>
+          </div>
+          <div class="hero-image-container">
+            <img
+              class="hero-image"
+              src="./images/profile-pic1.png"
+              alt="Profile Photo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="about-container">
+          <div class="about-image-container">
+            <img
+              class="about-image1"
+              src="./images/profile-pic2.png"
+              alt="profile image"
+            />
+            <img
+              class="about-image2"
+              src="./images/profile-pic3.png"
+              alt="profile image"
+            />
+            <img
+              class="about-image2"
+              src="./images/profile-pic4.png"
+              alt="profile image"
+            />
+          </div>
+          <h2 class="about-title">ABOUT ME</h2>
+          <p class="about-text">
+            Welcome to my website! My name is Tora Blaze and I am studying to
+            become a web developer. My hobbies include listening to music,
+            watching movies and hugging my cat. Currently, I am a full-time
+            singer. I am the best singer in the world and can sing better than
+            Sohyang. My singing range is from E3 to E7 and I can belt in a
+            balanced mix up to A6. No one is better than me when it comes to
+            singing and I am working for that to be the case when it comes to
+            programming too. As of October 2023, I have basic knowledge of HTML
+            and CSS, and also know how to crop images in Photoshop.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <div class="projects-container">
+          <h2 class="projects-title">MY PROJECTS</h2>
+
+          <div class="cards">
+            <div class="article-card">
+              <div class="content">
+                <p class="date">Sep 15, 2023</p>
+                <p class="title">FromageFront - a cheesy website</p>
+              </div>
+              <a
+                href="https://jstanoeva.github.io/fromagefront/"
+                target="_blank"
+                ><img src="./images/project1.png" alt="article-cover"
+              /></a>
+            </div>
+
+            <div class="article-card">
+              <div class="content">
+                <p class="date">Sep 20, 2023</p>
+                <p class="title">Glimmerwood Dash - an endless runner game</p>
+              </div>
+              <a
+                href="https://jstanoeva.github.io/glimmerwood-dash/"
+                target="_blank"
+                ><img src="./images/project2.png" alt="article-cover"
+              /></a>
+            </div>
+
+            <div class="article-card">
+              <div class="content">
+                <p class="date">Sep 28, 2023</p>
+                <p class="title">Movie Chatbot - knows movies and cheese</p>
+              </div>
+              <a
+                href="https://jstanoeva.github.io/movie-chatbot/"
+                target="_blank"
+                ><img src="./images/project3.png" alt="article-cover"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer id="footer">
+        <div class="footer-content">
+          <h2>CONTACT</h2>
+          <p>
+            If you want to chat or discuss music together, you can find me here:
+          </p>
+          <ul class="socials">
+            <li>
+              <a href="#footer" aria-label="Facebook"
+                ><i class="fa fa-facebook-square" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#footer" aria-label="Twitter"
+                ><i class="fa fa-twitter-square" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#footer" aria-label="YouTube"
+                ><i class="fa fa-youtube-square" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#footer" aria-label="GitHub"
+                ><i class="fa fa-github-square" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#footer" aria-label="LinkedIn"
+                ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            <img
+              class="favicon"
+              src="./images/favicon.png"
+              alt="icon"
+            />copyright &copy;<span data-current-year></span> Tora Blaze.
+            <span class="arr">All Rights Reserved.</span>
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
